@@ -32,7 +32,7 @@ export default function HeroSection() {
       <div className="overflow-hidden mt-6 sm:mt-4 md:-mt-5">
         <FadeIn delay={0.15} y={40}>
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]">
-            Hi, i&apos;m jack
+            Hi, i&apos;m indresh
           </h1>
         </FadeIn>
       </div>
@@ -48,7 +48,7 @@ export default function HeroSection() {
         <FadeIn delay={0.6} y={30}>
           <img
             src={PORTRAIT_URL}
-            alt="Jack, 3D creator portrait"
+            alt="Indresh, website developer portrait"
             className="w-full h-auto select-none pointer-events-none"
             draggable={false}
           />
@@ -62,7 +62,7 @@ export default function HeroSection() {
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            a 3d creator driven by crafting striking and unforgettable projects
+            a website developer driven by crafting fast, beautiful and unforgettable websites
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
