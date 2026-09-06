@@ -38,7 +38,7 @@ const DECORATIONS = [
 ];
 
 const ABOUT_TEXT =
-  "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!";
+  "As a website developer, i focus on building fast, modern websites for restaurants, gyms, salons, cafes, bars, resorts, and online stores, i truly enjoy helping businesses stand out online and turn visitors into customers. Let's build something incredible together!";
 
 export default function AboutSection() {
   return (
@@ -77,7 +77,13 @@ export default function AboutSection() {
           />
         </div>
 
-        <ContactButton />
+        <div className="flex flex-col items-center gap-4">
+          <ContactButton />
+          <div className="flex flex-col items-center text-[#D7E2EA] font-light tracking-wide text-sm sm:text-base opacity-70">
+            <span>+91 99192 48103</span>
+            <span>kashyapindresh06@gmail.com</span>
+          </div>
+        </div>
       </div>
     </section>
   );
