@@ -3,33 +3,45 @@ import FadeIn from '../components/FadeIn';
 const SERVICES = [
   {
     number: '01',
-    name: '3D Modeling',
+    name: 'Restaurant Website',
     description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
+      'Modern, appetizing restaurant websites with menus, online ordering, and reservation systems that bring customers to your table.',
   },
   {
     number: '02',
-    name: 'Rendering',
+    name: 'Gym Website',
     description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
+      'High-energy gym and fitness websites with class schedules, membership plans, and trainer profiles built to convert visitors into members.',
   },
   {
     number: '03',
-    name: 'Motion Design',
+    name: 'Salon Website',
     description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
+      "Elegant salon and spa websites with booking systems, service galleries, and pricing that reflect your brand's style.",
   },
   {
     number: '04',
-    name: 'Branding',
+    name: 'E-commerce Website',
     description:
-      'Crafting cohesive visual identities — from logos to full brand systems — that communicate a clear and memorable presence.',
+      'Fully functional online stores with secure checkout, product catalogs, and a smooth shopping experience that drives sales.',
   },
   {
     number: '05',
-    name: 'Web Design',
+    name: 'Cafe Website',
     description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
+      'Warm, inviting cafe websites with menus, ambience galleries, and location details that bring people through the door.',
+  },
+  {
+    number: '06',
+    name: 'Bar Website',
+    description:
+      'Stylish bar and lounge websites with event listings, drink menus, and reservation options for a great night out.',
+  },
+  {
+    number: '07',
+    name: 'Resort Website',
+    description:
+      'Immersive resort and hospitality websites with booking engines, photo galleries, and amenities that inspire getaways.',
   },
 ];
 
